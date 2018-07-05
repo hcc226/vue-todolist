@@ -15,9 +15,6 @@ export default {
     }
   },
   methods: {
-    getThings: function () {
-      return this.things
-    },
     changeState: function (index) {
       this.$emit('change', this.index, index)
     }
